@@ -12,6 +12,7 @@
 		EE390DB21E479DE300A7F879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE390DB01E479DE300A7F879 /* Main.storyboard */; };
 		EE390DB41E479DE300A7F879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE390DB31E479DE300A7F879 /* Assets.xcassets */; };
 		EE390DB71E479DE300A7F879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE390DB51E479DE300A7F879 /* LaunchScreen.storyboard */; };
+		EE390DC01E479FD300A7F879 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE390DBF1E479FD300A7F879 /* Speech.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EE390DB31E479DE300A7F879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE390DB61E479DE300A7F879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE390DB81E479DE300A7F879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE390DBF1E479FD300A7F879 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE390DC01E479FD300A7F879 /* Speech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				EE390DAB1E479DE300A7F879 /* SpeechToTextTest */,
 				EE390DAA1E479DE300A7F879 /* Products */,
+				EE390DBE1E479FD300A7F879 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				EE390DB81E479DE300A7F879 /* Info.plist */,
 			);
 			path = SpeechToTextTest;
+			sourceTree = "<group>";
+		};
+		EE390DBE1E479FD300A7F879 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE390DBF1E479FD300A7F879 /* Speech.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +273,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GU388YC6S7;
 				INFOPLIST_FILE = SpeechToTextTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SealDev.SpeechToTextTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GU388YC6S7;
 				INFOPLIST_FILE = SpeechToTextTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SealDev.SpeechToTextTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
