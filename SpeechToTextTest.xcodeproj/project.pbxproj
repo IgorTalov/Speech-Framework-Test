@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE390DAD1E479DE300A7F879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE390DAC1E479DE300A7F879 /* AppDelegate.swift */; };
+		EE390DAF1E479DE300A7F879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE390DAE1E479DE300A7F879 /* ViewController.swift */; };
+		EE390DB21E479DE300A7F879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE390DB01E479DE300A7F879 /* Main.storyboard */; };
+		EE390DB41E479DE300A7F879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE390DB31E479DE300A7F879 /* Assets.xcassets */; };
+		EE390DB71E479DE300A7F879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE390DB51E479DE300A7F879 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE390DA91E479DE300A7F879 /* SpeechToTextTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechToTextTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE390DAC1E479DE300A7F879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE390DAE1E479DE300A7F879 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE390DB11E479DE300A7F879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE390DB31E479DE300A7F879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE390DB61E479DE300A7F879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE390DB81E479DE300A7F879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE390DA61E479DE300A7F879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE390DA01E479DE300A7F879 = {
+			isa = PBXGroup;
+			children = (
+				EE390DAB1E479DE300A7F879 /* SpeechToTextTest */,
+				EE390DAA1E479DE300A7F879 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE390DAA1E479DE300A7F879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE390DA91E479DE300A7F879 /* SpeechToTextTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE390DAB1E479DE300A7F879 /* SpeechToTextTest */ = {
+			isa = PBXGroup;
+			children = (
+				EE390DAC1E479DE300A7F879 /* AppDelegate.swift */,
+				EE390DAE1E479DE300A7F879 /* ViewController.swift */,
+				EE390DB01E479DE300A7F879 /* Main.storyboard */,
+				EE390DB31E479DE300A7F879 /* Assets.xcassets */,
+				EE390DB51E479DE300A7F879 /* LaunchScreen.storyboard */,
+				EE390DB81E479DE300A7F879 /* Info.plist */,
+			);
+			path = SpeechToTextTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE390DA81E479DE300A7F879 /* SpeechToTextTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE390DBB1E479DE300A7F879 /* Build configuration list for PBXNativeTarget "SpeechToTextTest" */;
+			buildPhases = (
+				EE390DA51E479DE300A7F879 /* Sources */,
+				EE390DA61E479DE300A7F879 /* Frameworks */,
+				EE390DA71E479DE300A7F879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechToTextTest;
+			productName = SpeechToTextTest;
+			productReference = EE390DA91E479DE300A7F879 /* SpeechToTextTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE390DA11E479DE300A7F879 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Игорь Талов";
+				TargetAttributes = {
+					EE390DA81E479DE300A7F879 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GU388YC6S7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE390DA41E479DE300A7F879 /* Build configuration list for PBXProject "SpeechToTextTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE390DA01E479DE300A7F879;
+			productRefGroup = EE390DAA1E479DE300A7F879 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE390DA81E479DE300A7F879 /* SpeechToTextTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE390DA71E479DE300A7F879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE390DB71E479DE300A7F879 /* LaunchScreen.storyboard in Resources */,
+				EE390DB41E479DE300A7F879 /* Assets.xcassets in Resources */,
+				EE390DB21E479DE300A7F879 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE390DA51E479DE300A7F879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE390DAF1E479DE300A7F879 /* ViewController.swift in Sources */,
+				EE390DAD1E479DE300A7F879 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE390DB01E479DE300A7F879 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE390DB11E479DE300A7F879 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE390DB51E479DE300A7F879 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE390DB61E479DE300A7F879 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE390DB91E479DE300A7F879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE390DBA1E479DE300A7F879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE390DBC1E479DE300A7F879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GU388YC6S7;
+				INFOPLIST_FILE = SpeechToTextTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SealDev.SpeechToTextTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE390DBD1E479DE300A7F879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GU388YC6S7;
+				INFOPLIST_FILE = SpeechToTextTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SealDev.SpeechToTextTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE390DA41E479DE300A7F879 /* Build configuration list for PBXProject "SpeechToTextTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE390DB91E479DE300A7F879 /* Debug */,
+				EE390DBA1E479DE300A7F879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE390DBB1E479DE300A7F879 /* Build configuration list for PBXNativeTarget "SpeechToTextTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE390DBC1E479DE300A7F879 /* Debug */,
+				EE390DBD1E479DE300A7F879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE390DA11E479DE300A7F879 /* Project object */;
+}
